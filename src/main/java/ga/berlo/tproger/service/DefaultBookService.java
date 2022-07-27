@@ -44,4 +44,14 @@ public class DefaultBookService implements BookService{
         bookRepository.save(bookEntity);
 
     }
+
+    @Override
+    public List<Book> findByAuthor(String author) {
+        Iterable<BookEntity> iterable = bookRepository.findAllByAuthorContaining(author);
+        ArrayList<Book> books = new ArrayList<>();
+        for (BookEntity entity:iterable) {
+            books.add(mapper.bookEntityToBook(entity));
+        }
+        return books;
+    }
 }

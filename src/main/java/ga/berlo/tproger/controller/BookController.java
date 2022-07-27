@@ -22,7 +22,10 @@ public class BookController {
     }
 
     @GetMapping
-    public List<Book> getAllBooks(){
+    public List<Book> getAllBooks(@RequestParam(required = false) String author){
+        if (author != null) {
+            return bookService.findByAuthor(author);
+        }
         return bookService.getAllBooks();
     }
 
