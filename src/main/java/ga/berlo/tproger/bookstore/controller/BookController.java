@@ -1,9 +1,9 @@
-package ga.berlo.tproger.controller;
+package ga.berlo.tproger.bookstore.controller;
 
-import ga.berlo.tproger.mapper.BookToDtoMapper;
-import ga.berlo.tproger.model.Book;
-import ga.berlo.tproger.model.BookRequest;
-import ga.berlo.tproger.service.BookService;
+import ga.berlo.tproger.bookstore.mapper.BookToDtoMapper;
+import ga.berlo.tproger.bookstore.service.BookService;
+import ga.berlo.tproger.bookstore.model.Book;
+import ga.berlo.tproger.bookstore.model.BookRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

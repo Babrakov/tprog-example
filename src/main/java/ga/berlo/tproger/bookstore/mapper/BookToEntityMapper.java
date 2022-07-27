@@ -1,7 +1,7 @@
-package ga.berlo.tproger.mapper;
+package ga.berlo.tproger.bookstore.mapper;
 
-import ga.berlo.tproger.dao.BookEntity;
-import ga.berlo.tproger.model.Book;
+import ga.berlo.tproger.bookstore.dao.BookEntity;
+import ga.berlo.tproger.bookstore.model.Book;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring")

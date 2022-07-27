@@ -1,6 +1,6 @@
-package ga.berlo.tproger.service;
+package ga.berlo.tproger.bookstore.service;
 
-import ga.berlo.tproger.model.Book;
+import ga.berlo.tproger.bookstore.model.Book;
 
 import java.util.List;
 

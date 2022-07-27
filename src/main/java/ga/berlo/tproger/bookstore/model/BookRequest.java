@@ -1,4 +1,4 @@
-package ga.berlo.tproger.model;
+package ga.berlo.tproger.bookstore.model;
 
 import lombok.Data;
 

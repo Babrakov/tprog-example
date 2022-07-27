@@ -1,4 +1,4 @@
-package ga.berlo.tproger.dao;
+package ga.berlo.tproger.bookstore.dao;
 
 import org.springframework.data.repository.CrudRepository;
 

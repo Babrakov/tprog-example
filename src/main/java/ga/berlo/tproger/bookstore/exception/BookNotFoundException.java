@@ -1,4 +1,4 @@
-package ga.berlo.tproger.exception;
+package ga.berlo.tproger.bookstore.exception;
 
 public class BookNotFoundException extends RuntimeException {
     public BookNotFoundException(String message) {

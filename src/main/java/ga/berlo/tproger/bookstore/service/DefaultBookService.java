@@ -1,10 +1,10 @@
-package ga.berlo.tproger.service;
+package ga.berlo.tproger.bookstore.service;
 
-import ga.berlo.tproger.dao.BookEntity;
-import ga.berlo.tproger.dao.BookRepository;
-import ga.berlo.tproger.exception.BookNotFoundException;
-import ga.berlo.tproger.mapper.BookToEntityMapper;
-import ga.berlo.tproger.model.Book;
+import ga.berlo.tproger.bookstore.dao.BookEntity;
+import ga.berlo.tproger.bookstore.dao.BookRepository;
+import ga.berlo.tproger.bookstore.exception.BookNotFoundException;
+import ga.berlo.tproger.bookstore.mapper.BookToEntityMapper;
+import ga.berlo.tproger.bookstore.model.Book;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
